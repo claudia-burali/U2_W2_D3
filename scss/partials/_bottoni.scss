@@ -1,0 +1,15 @@
+button:hover {
+    box-shadow: 5px 5px 5px rgb(255, 242, 127);
+}
+
+$colorMap: (
+  green: #4caf50,
+  blue: #0e6cff,
+  orange: #ff8700,
+);
+
+@each $key, $value in $colorMap {
+  .box-#{$key} {
+    background-color: $value;
+  }
+}

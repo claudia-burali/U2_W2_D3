@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+$font_h1: 50px;
+$font_text: 20px;
+$font_btns: 25px;
+
+body {
+    font: {
+        family: "Montserrat Alternates", sans-serif;
+        size:$font_text;
+    }
+}
+h1 {
+    font-size: $font_h1;   
+}
+button {
+    font-size: $font_btns;
+}
+.logo {
+    width: 60px;
+}
